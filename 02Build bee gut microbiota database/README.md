@@ -1,9 +1,7 @@
-################################################
 #PART I:Data preparation for building database
-################################################
-#=====================================================================================
+
 #  name_cluster_fna_gff_faa_ffn & all_genomes.mapfile
-#=====================================================================================
+
 Before building the database, we need to organize two files in advance:
 1) name_cluster_fna_gff_faa_ffn: this file separated by tab key, include 6 columns:
 	a)genome file name
@@ -17,12 +15,12 @@ Before building the database, we need to organize two files in advance:
 	b)cluster which strain belongs to
 	c)bool value, '1' means the strain is the representative strain of the cluster, '0' is not.
 
-##################################
+
 #PART II:Build the MIDAS database
-##################################
-#=====================================================================================
+
+
 #  process.sh
-#=====================================================================================
+
 In this script, we do the following things:
 1)Prepare and organize the bee gut microbial genome in suitable folder named 'bee_gut_genome' 
 using the file 'name_cluster_fna_gff_faa_ffn' prepared above;

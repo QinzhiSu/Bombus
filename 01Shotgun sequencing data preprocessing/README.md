@@ -2,9 +2,9 @@
 
 In the current directory, three parts scripts were used to process quality control, host removing and extract individual draft genomes.  
 
-############################
+
 #PART I:Data preprocessing 
-############################
+
 
 #1. Quality control
 
@@ -14,9 +14,9 @@ COMMAND: sh 01fastp.sh -i <input_folder> -o <output folder> -n <number of thread
 
 COMMAND: sh 01RemoveHost.sh
 
-###############################
+
 #PART II:Metagenomic binning 
-###############################
+
 
 #1. De novo assembly
 
@@ -42,9 +42,9 @@ COMMAND: sh 06de-replication.sh
 
 COMMAND: sh 07gtdbtk.sh
 
-###################################
+
 #PART III:Bins annotation
-###################################
+
 
 #1. Gene prediction
 
